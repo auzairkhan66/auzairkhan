@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auzair Yousf Khan — CS Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AYK<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">
+        <span class="mono-tag">&lt;hello_world /&gt;</span>
+      </p>
+      <h1 class="hero-name">Auzair<br /><span class="name-accent">Yousf Khan</span></h1>
+      <div class="hero-typing-wrap">
+        <span class="typing-prefix">I am a </span>
+        <span class="typing-text" id="typingText"></span>
+        <span class="typing-cursor">|</span>
+      </div>
+      <p class="hero-sub">Building the future, one line of code at a time.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i> Hire Me
+        </a>
+        <a href="#" class="btn btn-outline" download>
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:auzairkhan669@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+919682628189" class="social-icon" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag mono-tag">01. about_me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid fade-in">
+        <div class="about-avatar-wrap">
+<div class="about-avatar">
+  <img src="auzair.jpeg" alt="Auzair Yousf Khan" style="width:140px; height:140px; border-radius:50%; object-fit:cover; border:2px solid var(--border-accent); position:relative; z-index:1;" />
+  <div class="avatar-ring"></div>
+  <div class="avatar-ring ring-2"></div>
+</div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">6<span class="stat-sup">th</span></span>
+              <span class="stat-label">Semester</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Skills</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-intro">Hey there! I'm <strong>Auzair Yousf Khan</strong>, a passionate Computer Science student currently pursuing my B.Tech at Baba Ghulam Shah Badshah University, Rajouri.</p>
+          <p>I'm deeply enthusiastic about programming, web development, and the ever-evolving landscape of modern technologies. From crafting clean, responsive web interfaces to exploring intelligent systems like computer vision, I love building things that solve real-world problems.</p>
+          <p>Based in the scenic valley of Banihal, Jammu & Kashmir, I bring the same focus and resilience of the mountains to every line of code I write. I'm always eager to learn, collaborate, and contribute to meaningful tech projects.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Khairkoot, Banihal, Ramban, J&K, India</span>
+            </div>
+            <div class="detail-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:auzairkhan669@gmail.com">auzairkhan669@gmail.com</a>
+            </div>
+            <div class="detail-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+919682628189">+91 9682628189</a>
+            </div>
+            <div class="detail-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>B.Tech CSE — Expected 2027</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag mono-tag">02. education</span>
+        <h2 class="section-title">Academic Journey</h2>
+      </div>
+      <div class="timeline fade-in">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-university"></i></div>
+          <div class="timeline-card">
+            <span class="edu-year">2023 — 2027 (Expected)</span>
+            <h3 class="edu-degree">B.Tech — Computer Science & Engineering</h3>
+            <p class="edu-inst"><i class="fa-solid fa-building-columns"></i> Baba Ghulam Shah Badshah University, Rajouri</p>
+            <p class="edu-note">Currently in 6th Semester. Exploring Data Structures, Algorithms, Web Dev & AI/ML.</p>
+            <span class="edu-badge">Pursuing</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+          <div class="timeline-card">
+            <span class="edu-year">Completed 2022</span>
+            <h3 class="edu-degree">12th — Higher Secondary (Science)</h3>
+            <p class="edu-inst"><i class="fa-solid fa-building-columns"></i> Govt. Higher Secondary School, Tethar Banihal</p>
+            <p class="edu-note">Studied Physics, Chemistry, Mathematics & Computer Science.</p>
+            <span class="edu-badge edu-badge-done">Completed</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-book-open"></i></div>
+          <div class="timeline-card">
+            <span class="edu-year">Completed 2020</span>
+            <h3 class="edu-degree">10th — Secondary Education</h3>
+            <p class="edu-inst"><i class="fa-solid fa-building-columns"></i> Govt. High School Nowgam, Banihal</p>
+            <p class="edu-note">Completed matriculation with strong academic foundations.</p>
+            <span class="edu-badge edu-badge-done">Completed</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag mono-tag">03. skills</span>
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+      <div class="skills-grid fade-in">
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #3776AB">
+            <i class="fa-brands fa-python"></i>
+          </div>
+          <h4 class="skill-name">Python</h4>
+          <p class="skill-desc">Scripting, automation & data-driven applications</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 80%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #E44D26">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h4 class="skill-name">HTML5</h4>
+          <p class="skill-desc">Semantic markup & accessible web structure</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #264DE4">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <h4 class="skill-name">CSS3</h4>
+          <p class="skill-desc">Responsive layouts, animations & modern design</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 85%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #F7DF1E">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <h4 class="skill-name">JavaScript</h4>
+          <p class="skill-desc">Interactive, dynamic web experiences</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 70%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #00758F">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h4 class="skill-name">DBMS</h4>
+          <p class="skill-desc">Database design, SQL queries & management</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 72%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--clr: #217346">
+            <i class="fa-solid fa-file-excel"></i>
+          </div>
+          <h4 class="skill-name">MS Office</h4>
+          <p class="skill-desc">Word, Excel, PowerPoint & productivity tools</p>
+          <div class="skill-bar"><div class="skill-fill" style="--pct: 88%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag mono-tag">04. projects</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="projects-grid fade-in">
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-book"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Library Management System</h3>
+          <p class="project-desc">A desktop application to manage library records, track book inventory, handle member registrations, and automate the book issue & return process. Reduces manual effort and errors in library administration.</p>
+          <br>
+          <p class="project-desc">Developed under the leadership of <u><a href="https://kaisermohiuddin.me">Kaiser Mohiuddin</a></u></p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-car"></i></div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" aria-label="Live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Number Plate Detection System</h3>
+          <p class="project-desc">An intelligent computer vision system that detects vehicle number plates from images or live camera feeds, extracts the plate text using OCR, and cross-references against a blacklist database to flag unauthorized vehicles.</p>
+          <br>
+          <p class="project-desc">Developed under the leadership of <u><a href="https://kaisermohiuddin.me">Kaiser Mohiuddin</a></u></p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">OCR</span>
+            <span class="tag">DBMS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag mono-tag">05. contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub">Have a project in mind or just want to say hi? My inbox is always open.</p>
+      </div>
+      <div class="contact-grid fade-in">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon-wrap"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:auzairkhan669@gmail.com" class="contact-value">auzairkhan669@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon-wrap"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Phone</p>
+              <a href="tel:+919682628189" class="contact-value">+91 9682628189</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon-wrap"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <p class="contact-label">Address</p>
+              <p class="contact-value">Khairkoot, Banihal, Ramban<br />Jammu & Kashmir, India</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="mailto:auzairkhan669@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project Collaboration..." required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Message sent! I'll get back to you soon.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#home" class="nav-logo">
+          <span class="logo-bracket">&lt;</span>AYK<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-copy">Designed &amp; Built by <strong>Auzair Khan</strong> &copy; <span id="year"></span></p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
